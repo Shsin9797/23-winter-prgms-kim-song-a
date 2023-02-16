@@ -15,6 +15,9 @@ public class TestService {
         // return "test"를 repository 가 대신해주면
         // 여기서 서비스는 지금 이 로직상 repository 에게 일을 시켜서 받기만 하면됨
 
-        return 레포지토리.test();
+        int number = 0;
+        number += 3;
+
+        return 레포지토리.test(number);
     }
 }
